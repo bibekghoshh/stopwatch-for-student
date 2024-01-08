@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+.top-hero {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+}
+.time {
+  font-size: 23rem;
+  /* border: #fff 5px solid; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.controllers {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #888888;
+}
+.items {
+  display: flex;
+  gap: 5px;
+}
+.items > button {
+  padding: 0px 2px;
+  border: #888888 1px solid;
+  color: #8f8f8f;
+  background: none;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
